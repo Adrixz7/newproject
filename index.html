@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD - Integración Continua y Despliegue Continuo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CI/CD: Integración Continua y Despliegue Continuo</h1>
+        <nav>
+            <ul>
+                <li><a href="#certificacion">Certificación</a></li>
+                <li><a href="#devops">Comunidad DevOps</a></li>
+                <li><a href="#cicd">CI/CD</a></li>
+                <li><a href="#pipeline">Pipeline CI/CD</a></li>
+                <li><a href="#git">Git y Github</a></li>
+                <li><a href="#github">GitHub Actions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="certificacion">
+            <h2>Certifación</h2>
+            <div style="text-align: center; border: 15px;">
+                <img src="certificado.jpg" width="550px">
+            </div>
+        </section>
+
+        <section id="devops">
+            <h2>¿Qué es la cultura DevOps?</h2>
+            <p style="text-align: center;">La cultura DevOps es una metodología de trabajo que promueve la colaboración entre los equipos de trabajo de desarrollo (Dev) y operaciones (Ops) con el fin de mejorar la entrega del software, mejorar la calidad y la eficiencia en los procesos. 
+                Está cultura fomenta la comunicación, integración y automatización de procesos para mejorar el desarrollo del software. Se enfoca en principios claves tales como:</p>
+                <ul>
+                    <li>- Automatización</li>
+                    <li>- Colaboración</li>
+                    <li>- Monitoreo continuo</li>
+                    <li>- Mejora continua</li>
+                </ul>
+        </section>
+
+        <section id="cicd">
+            <h2>¿Qué es CI/CD?</h2>
+            <p>Es un conjunto de prácticas y principios en el desarrollo de software que busca como propósito automatizar y optimizar el proceso de entrega de aplicaciones.
+                CI significa <strong>Integración Continua</strong> mientras que CD significa <strong>Despliegue Continuo.</strong> Está práctica es importante dentro del marco de DevOps. Pero que significa cada una?
+                <br>
+                CI: Hace referencia a la práctica de integrar cambios de código en un repositorio compartido varias veces en el día. Además cada vez que se realiza un cambio se ejecuta una prueba automatizada para asegurar que el nuevo codigo no contenga errores. 
+                Todo esto permite detectar problemas en etapas tempranas permitiendo que su solución sea más fácil y no permite que se convierta en una falla mayor.</p>
+        </section>
+
+        <section id="pipeline">
+            <h2>¿Qué es un Pipeline CI/CD?</h2>
+            <p>
+                Un Pipeline CI/CD es un conjunto de pasos automáticos que ayuda en el desarrollo, prueba y despliegue de aplicaciones de software de manera continua. CI, que significa Integración Continua, permite a los programadores unir sus cambios en el código en un repositorio compartido varias veces al día. Cada vez que se hace una integración, se realizan pruebas automáticas para detectar y solucionar errores rápidamente. <br>Por otro lado, CD puede significar Entrega Continua o Despliegue Continuo. En el caso de Entrega Continua, el código se prepara para ser lanzado a producción automáticamente, pero necesita que alguien lo apruebe antes de ser publicado. En cambio, el Despliegue Continuo automatiza todo el proceso, así que cualquier cambio que supere las pruebas se envía a producción sin que nadie tenga que intervenir.
+            </p>
+        </section>
+        <section id="git">
+            <h2>¿Qué es Git y Github?</h2>
+            <p>
+                Git es una herramienta que permite a los desarrolladores llevar un registro de los cambios que hacen en el código y trabajar juntos en proyectos de software. Ayuda a gestionar diferentes versiones del código y facilita que varias personas colaboren al mismo tiempo en el mismo proyecto. <br>Mientras que GitHub es una plataforma en línea que utiliza Git para almacenar y gestionar repositorios de código. Ofrece funciones para colaborar, como hacer *pull requests*, gestionar problemas y crear documentación, lo que hace que trabajar en equipo y seguir el progreso de los proyectos sea más sencillo. En resumen, Git es el sistema de control de versiones, mientras que GitHub es el lugar donde se puede utilizar Git para colaborar con otros.
+            </p>
+        </section>
+        <section id="github">
+            <h2>¿Qué son GitHub Actions?</h2>
+            <p>
+                GitHub Actions es una herramienta de automatización integrada en GitHub que permite crear flujos de trabajo personalizados para gestionar el ciclo de vida de un proyecto. Los flujos de trabajo se definen en archivos YAML y se pueden configurar para ejecutarse en respuesta a diversos eventos en el repositorio, como push, pull requests o la creación de versiones.
+                <br>
+                Los componentes principales de GitHub Actions son:
+                <br>
+                    <strong>1. Eventos:</strong> Son los disparadores que inician un flujo de trabajo. Pueden ser acciones en el repositorio, como un push de código, la creación de un pull request, o incluso eventos programados. Estos eventos permiten que el flujo de trabajo se ejecute automáticamente cuando ocurren ciertas condiciones.
+                <br>
+                    <strong>2. Jobs:</strong> Un flujo de trabajo está compuesto por uno o más trabajos, que son conjuntos de pasos que se ejecutan en un entorno específico. Cada trabajo se ejecuta en un contenedor o máquina virtual y puede ejecutarse de forma independiente o en paralelo con otros trabajos en el mismo flujo de trabajo.
+                <br>
+                    <strong>3. Steps:</strong> Son las acciones individuales dentro de un trabajo. Cada paso puede ejecutar comandos, ejecutar scripts, o llamar a otras acciones. Los pasos se ejecutan en el orden en que están definidos y permiten realizar tareas específicas como compilar código, ejecutar pruebas o desplegar aplicaciones.
+                <br>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Adrian Camilo Gonzalez Riveros - Stream 
+        <a href="https://open.spotify.com/intl-es/album/5H7ixXZfsNMGbIE5OBSpcb?si=EziHBtRCRHet7CD1uQRIRw" target="_blank">
+        <img src="tay.jpeg" width="100px" style="vertical-align: middle;">
+        </p>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
